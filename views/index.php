@@ -1,6 +1,6 @@
 <?php include('templates/header.php'); ?>
 <div class="header">
-  <h4>Welcome,</h4>
+  <h4>Welcome to</h4>
   <h1 class="title">Simple MVC PHP</h1>
   <p class="title-desc">Built with PHP native and several libraries</p>
 </div>
