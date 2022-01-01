@@ -5,3 +5,5 @@
  */
 
 $router->get('/', '\App\HomeApp@index');
+$router->get('/add', '\App\HomeApp@add');
+$router->get('/login', '\App\LoginApp@index');

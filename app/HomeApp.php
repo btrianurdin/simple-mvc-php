@@ -11,4 +11,11 @@ class HomeApp
     
     view('index', $data);
   }
+
+  public static function add()
+  {
+    $data['title'] = 'Tambah Mahasiswa';
+
+    view('add', $data);
+  }
 }

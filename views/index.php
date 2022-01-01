@@ -1,26 +1,37 @@
 <?php $this->include('templates/header'); ?>
-<div class="header">
-  <h4>Welcome to</h4>
-  <h1 class="title">Simple MVC PHP</h1>
-  <p class="title-desc">Built with PHP native and several libraries</p>
+<div class="card my-4">
+  <div class="card-body text-center">
+    <h3>Data Mahasiswa</h3>
+    <p class="m-0 p-0">Aplikasi CRUD menggunakan Simple MVC PHP</p>
+  </div>
 </div>
-<h4 class="lib-list-text">Library List:</h4>
-<div class="lib-list">
-  <div class="card">
-    <h3><a href="https://github.com/bramus/router">Bramus Router</a></h3>
-    <p>A lightweight and simple object oriented PHP Router. Built by Bram(us) Van Damme (https://www.bram.us) and Contributors.</p>
-  </div>
-  <div class="card">
-    <h3><a href="https://github.com/rakit/validation">Rakit Validation</a></h3>
-    <p>PHP Standalone library for validating data. Inspired by Illuminate\Validation Laravel.</p>
-  </div>
-  <div class="card">
-    <h3><a href="https://github.com/catfan/Medoo">Medoo</a></h3>
-    <p>The lightweight PHP database framework to accelerate development.</p>
-  </div>
-  <div class="card">
-    <h3><a href="https://github.com/bramus/router">see more on github</a></h3>
-    <p>Simple MVC PHP is a simple PHP code with MVC architecture built with PHP native and several libraries. Fork me on github if you're interested. </p>
+<div class="mt-5">
+  <a href="add" class="btn btn-primary mb-3">Tambah</a>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Nama Lengkap</th>
+          <th>NIM</th>
+          <th>TTL</th>
+          <th>Jurusan</th>
+          <th>Angkatan</th>
+          <th>#</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bagus Trianurdin</td>
+          <td>5190311100</td>
+          <td>Indramayu, 27-02-2001</td>
+          <td>Sistem Informasi</td>
+          <td>2019</td>
+          <td>tes</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 <?php $this->include('templates/footer'); ?>
