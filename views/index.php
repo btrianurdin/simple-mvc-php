@@ -1,4 +1,4 @@
-<?php include('templates/header.php'); ?>
+<?php $this->include('templates/header'); ?>
 <div class="header">
   <h4>Welcome to</h4>
   <h1 class="title">Simple MVC PHP</h1>
@@ -23,4 +23,4 @@
     <p>Simple MVC PHP is a simple PHP code with MVC architecture built with PHP native and several libraries. Fork me on github if you're interested. </p>
   </div>
 </div>
-<?php include('templates/footer.php'); ?>
+<?php $this->include('templates/footer'); ?>

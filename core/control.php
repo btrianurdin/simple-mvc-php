@@ -95,8 +95,8 @@ function flash($name = "", $message = "", $class = "success")
   }
 }
 
-function view(string $viewFilename, array $data = null)
+function view(string $template, array $data = null)
 {
-  extract($data);
-  return require_once __LOADFILE__ . "/views/" . $viewFilename . ".php";
+  $view = new \Core\Helpers\View();
+  return $view->render($template, $data);
 }
