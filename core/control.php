@@ -97,6 +97,6 @@ function flash($name = "", $message = "", $class = "success")
 
 function view(string $template, array $data = null)
 {
-  $view = new \Core\Helpers\View();
+  $view = new \Lib\View();
   return $view->render($template, $data);
 }
